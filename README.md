@@ -8,7 +8,7 @@ This code creates earnings surprise measurement and replicates post-earnings ann
 
 ### PEAD formed by analyst forecast-based measure (SUE3) 
 
-## ![PEAD_SUE3](/Users/genli/genli Dropbox/Gen Li/Datasets/IBES/github/PEAD_SUE3.png)
+## ![PEAD_SUE3](PEAD_SUE3.png)
 
 
 
