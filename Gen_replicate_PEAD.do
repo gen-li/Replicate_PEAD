@@ -12,7 +12,9 @@
              using methodology in Livnat and Mendenhall (JAR, 2006)                
              Forms SUE-based portfolios,compares drift across Compustat and IBES   
              based earnings surprise definitions and across different time periods
-
+            
+            Please follow the link below for details:
+            https://wrds-www.wharton.upenn.edu/pages/support/applications/portfolio-construction-and-market-anomalies/post-earnings-announcement-drift/
 
 
 */
@@ -880,7 +882,8 @@ lwidth(medthick)) (line cum_wtmean_exret3 ncount if sue3r == 5,
 lwidth(medthick)) if ncount <= 50, 
 ytitle(Cumulative Value-Weighted Excess Returns (%)) ylabel(#10) xtitle("Event time, t=0 is Earnings Announcement Date") xlabel(#10) 
 legend(on order(1 "SUE1: Most negative SUE port" 2 "SUE2" 3 "SUE3" 4 "SUE4" 5 "SUE5: Most positive SUE port") rows(2) position(6)) 
-scheme(white_tableau);
+scheme(white_tableau)
+title("CARs for Analyst-based SUE Portfolios", size(medsmall));
 #delimit cr
 
 graph export "${result}/PEAD_SUE3.png", replace
